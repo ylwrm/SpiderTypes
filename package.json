@@ -1,0 +1,27 @@
+{
+  "name": "spidertypes",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/MyComponent.d.ts",
+  "types": "dist/MyComponent.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "/dist/**/*.js",
+    "/dist/**/*.d.ts",
+    "/types/",
+    "/examples/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ylwrm/SpiderTypes.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ylwrm/SpiderTypes/issues"
+  },
+  "homepage": "https://github.com/ylwrm/SpiderTypes#readme"
+}
