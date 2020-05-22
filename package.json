@@ -1,6 +1,6 @@
 {
   "name": "spidertypes",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/MyComponent.d.ts",
   "types": "dist/MyComponent.d.ts",
