@@ -6,14 +6,14 @@ class MyComponent implements Spider.Component {
         this.destroy();
     };
     private button: HTMLButtonElement | undefined;
-    public init = (div: HTMLDivElement, setting: MyComponentSetting) => {
+    public init = async (div: HTMLDivElement, setting: MyComponentSetting) => {
         this.button = document.createElement('button');
         this.button.innerText = 'Button';
         div.appendChild(this.button);
         this.button.addEventListener('click', this.handler);
         return this;
     };
-    public destroy = () => {
+    public destroy = async () => {
         // for GC
         if (this.button) {
             this.button.removeEventListener('click', this.handler)
